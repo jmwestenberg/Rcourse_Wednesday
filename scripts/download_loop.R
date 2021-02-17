@@ -1,3 +1,9 @@
+#Let's try to maintain the following structure. 
+#First a comment on the goal of the script.
+#Then clean workspace, read in file paths, load required packages.
+#After a break we start our the main body of our code. 
+###############################################################################################
+
 #Download excel docs from bls, clean, and append
 
 # clean workspace and environment (this is equivalent to clicking the brush buttons in RStudio)
@@ -15,7 +21,7 @@ source(paste0(workingdir, "workingdir.R"))
 require(stringr)
 require(readxl)
 
-##############################################################
+###############################################################################################
 
 #see https://jmwestenberg.github.io/courses/rcourse/lesson1/lesson1_05/ for step by step explanation of loop
 county_data<-data.frame()
